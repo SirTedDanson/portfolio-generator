@@ -45,8 +45,7 @@ const generateProjects = projectsArr => {
     `;
   });
 
-  const nonFeaturedProjectHtmlArr = nonFeaturedProjects.map(
-    ({ name, description, languages, link }) => {
+  const nonFeaturedProjectHtmlArr = nonFeaturedProjects.map(({ name, description, languages, link }) => {
       return `
         <div class="col-12 col-md-6 mb-2 bg-dark text-light p-3 flex-column">
           <h3 class="portfolio-item-title text-light">${name}</h3>
